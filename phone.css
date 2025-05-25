@@ -1,0 +1,46 @@
+#navbar{
+flex-direction: column;
+}
+  html{
+    scroll-behavior: smooth;
+  }
+
+#home{
+    height:470px;
+    padding:3px 68px;
+}
+
+#home p{
+   font-size:13px;
+}
+
+#home::before{
+    height:480px;
+    
+}
+
+#services{
+    flex-direction: column;
+}
+
+
+#services.box{
+        padding: 14px;
+        margin: 2px 15px;
+
+}
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    height: auto;
+    width:76px;
+    padding: 8px;
+}
+
+
+#h-primary{
+      font-size: 26px;
+}

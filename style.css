@@ -10,10 +10,11 @@
 
 #navbar{
   
-    display: flex;
+ display: flex;
  align-items: center;
- position: relative;
  background-color:grey;
+ position: sticky;
+ top: 0px;
 }
 
 
@@ -149,10 +150,7 @@ background-size: cover;
     justify-content: center;
     align-items:center;
  }
- #clients img{
-    height: 124px;
-    padding: 24px;
- }
+ 
 
  #client-section{
     position: relative;
