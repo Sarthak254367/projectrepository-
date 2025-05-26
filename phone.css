@@ -1,6 +1,6 @@
 #navbar{
 flex-direction: column;
-height:20px;
+height:50px;
 }
   html{
     scroll-behavior: smooth;
