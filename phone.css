@@ -2,6 +2,11 @@
 flex-direction: column;
 height:50px;
 }
+
+.logo-img{
+     
+    height:120px;
+}
   html{
     scroll-behavior: smooth;
   }
