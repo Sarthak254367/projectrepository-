@@ -7,6 +7,16 @@ height:50px;
      
     height:120px;
 }
+  
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-size:12px;
+    
+  }
+
+
   html{
     scroll-behavior: smooth;
   }
