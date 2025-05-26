@@ -88,14 +88,16 @@ background-size: cover;
   #home h1{
     color:white;
     text-align: center;
+    
     font-family: "Baloo Bhai 2", sans-serif;
   }
 
   #home p{
-    color:white;
+    font-size: 2.0rem;
     text-align: center;
     font-family: "Baloo Bhai 2", sans-serif;
-  }
+}
+  
 
   /*service section*/
   
@@ -103,21 +105,23 @@ background-size: cover;
     margin: 34px;
     display: flex;
   }
+   
   #services .box{
    border:2px solid brown;
-   margin: 3px 6px;
+    margin: 3px 16px; 
    border-radius: 28px;
-   margin-bottom: 20px;
+   margin-bottom: 20px; 
    padding: 34px;
-
+   background-color: beige;
+   
+   
   }
 
  #services .box img{
-    height: 160px;
+    height:160px;
     margin: auto;
     display: block;
  }
-  
  .h-primary{
     font-size: 2.3rem;
     padding:12px;
@@ -166,6 +170,12 @@ background-size: cover;
     z-index: -1;
     opacity:0.4;
  }
+
+ #clients img{
+    height:160px;
+    padding:  12px;
+ }
+
 
 
 
