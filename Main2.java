@@ -2,26 +2,26 @@ import java.util.Scanner;
 public class Main2 {
     public static void main(String[] args) {
         
-    //Scanner in=new Scanner(System.in);
-   // int a=in.nextInt();
-     //  int b=in.nextInt();
-       //int c=in.nextInt();
+    Scanner in=new Scanner(System.in);
+       int a=in.nextInt();
+       int b=in.nextInt();
+       int c=in.nextInt();
           
-       //find the largest number among three 
-       //int max=a;
+     //  find the largest number among three 
+       int max=a;
 
-       //if (b > max) {
-     //   max=b;
-    //   }
+       if (b > max) {
+        max=b;
+       }
 
-       //if(c>max) {
-      // max=c;
-      // }
+       if(c>max) {
+          max=c;
+       }
        
-   //System.out.println(max);
+   System.out.println(max);
    
-   //alphabet checking in java
-  /*char ch=in.next().trim().charAt(0);
+   alphabet checking in java
+  char ch=in.next().trim().charAt(0);
    if(ch >='a' && ch<='z') {
     System.out.println("Lowercase");
    }
@@ -30,16 +30,17 @@ public class Main2 {
    }
 
 
-   System.out.println(ch); */
-   // reversing a number
-   /*int num=2848879;
-   int ans=0;
-   while(num>0) {
-    int rem=num%10;
-    num/=10;
-    ans=ans*10+rem;
+   System.out.println(ch); 
+    reversing a number
+     int num=2848879;
+     int ans=0;
+      while(num>0) {
+             int rem=num%10;
+             num/=10;
+             ans=ans*10+rem;
    }
-   System.out.println(ans); */
+   
+System.out.println(ans); */
 
    Scanner sc=new Scanner(System.in);
    int ans=0;
