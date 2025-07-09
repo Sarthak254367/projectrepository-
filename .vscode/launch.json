@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "r",
+            "request": "launch",
+            "mainClass": "r",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "search",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
+            "name": "abstraction",
+            "request": "launch",
+            "mainClass": "abstraction",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
+            "name": "modifiers",
+            "request": "launch",
+            "mainClass": "modifiers",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
+            "name": "methodOveriding",
+            "request": "launch",
+            "mainClass": "methodOveriding",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
+            "name": "binarysearch4",
+            "request": "launch",
+            "mainClass": "binarysearch4",
+            "projectName": "java.h_eb38d61b"
+        },
+        {
+            "type": "java",
             "name": "oops4",
             "request": "launch",
             "mainClass": "oops4",
