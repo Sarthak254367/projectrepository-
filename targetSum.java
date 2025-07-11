@@ -4,7 +4,7 @@ public class targetSum {
         //find the repwating element in array
     int arr[]={2,3,4,2,5};
     System.out.println(firstRepeatingNumber(arr));
-
+    
         
     }
 
