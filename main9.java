@@ -23,11 +23,20 @@ public class main9 {
        int left=0;
        int right=arr.length-1;
        while(left<right){
-        // if(arr[left]==1 && arr[right]==0){
-        //     swap(arr, left, right);
-        //     left++;
-        //     right--;
-        // }
+         if(arr[left]==1 && arr[right]==0){
+           swap(arr, left, right);
+
+     if(arr[left]==0){
+                  left++;
+}
+
+else if(arr[right]==1){
+
+          right--;
+         }
+
+
+
         if(arr[left]%2==1 && arr[right]%2==0){
              swap(arr, left, right);
           left++;
