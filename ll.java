@@ -66,6 +66,39 @@ class LinkedList{
   head=head.next;
 }
 
+
+void deleteEnd(){
+  Node temp=head;
+  if(head==null  && head.next==null){
+    return;
+  }
+  while(temp.next.next!=null){
+    temp=temp.next;
+  }
+  temp.next=null;
+}
+void deleteMid(int data,int k){
+  if(k==1){
+    head=head.next;
+    return;
+  }
+  
+  Node temp=head;
+  Node prev=null;
+  int count=0;
+  
+  while(temp!=null){
+    count++;
+    if(count==k){
+      prev.next=temp.next;
+    }
+    
+    prev=temp;
+    temp=temp.next;
+    
+  }
+}
+
   void display(){
       Node current=head;
     while(current!=null){
