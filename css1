@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+     #sar{
+        color:red;   class selectors
+      }
+      #ds{
+        color:pink;
+      }
+  
+      /*/grouping selector*/
+      footer,span{     
+        background-color: blue;   
+      }
+      /*specific chizo ko class selectors*/
+      .g{
+        color:yellow ;
+      }
+      
+    </style>
+  </head>
+  <body>
+      <h1 class="title">Hello World! </h1>
+     <h3>Selectors</h3>
+     <p id="sar">this is my first paragraph</p>
+     <p id="ds">this is my second parA</p>
+     
+     <div>
+       <p>
+         thsi is new 
+       </p>
+       <p class="g">hhhhhh</p>
+       <span>this is span</span>
+     </div>
+     <footer>this is footer</footer>
+      
+     
+  </body>
+</html>
