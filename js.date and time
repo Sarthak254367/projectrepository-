@@ -1,0 +1,21 @@
+let myDate= new Date();
+console.log(myDate);
+console.log(myDate.toDateString());
+console.log(myDate.toLocaleString());
+
+let myCreatedDate=new Date(2023,0,23,4,5);
+console.log(myCreatedDate.toLocaleString());
+console.log(myCreatedDate.toDateString());
+
+let myCreatedDate1=new Date("2026-02-25");
+console.log(myCreatedDate1.toDateString());
+
+let myTimeStamp=Date.now();
+console.log(myTimeStamp); //give any time
+console.log(myCreatedDate1.getTime());
+
+//comparison can be dine in millisecond
+console.log(Math.floor(Data.now()/1000));
+
+let newDate=new Date()
+console.log(newDate);
