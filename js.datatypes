@@ -1,0 +1,33 @@
+const accountId=14552
+let accountEmail="sarthak"
+var accountPassword="12345"
+accountCity="jaipur"
+
+// accountId=4 //not allowed as it is constant
+accountEmail="sc.sccom"
+accountPassword="33"
+console.log(accountId);
+console.table([accountId,accountEmail,accountPassword])
+// alert(7+9) we are using nidej snot the browser
+//code readability should be good
+// let state=null
+
+//data types in JSON
+
+let score="sarthak"
+console.log(typeof score);
+let valueInNumber=Number(score)
+console.log(valueInNumber);
+ //"33"=33
+ //"33abc"=nan
+ //true=1 fa;sw=0
+ let isLoggedIn=1
+ let booleanIsLoggedIn=Boolean(isLoggedIn)
+ console.log(booleanIsLoggedIn)
+ 
+ let sum=33
+ let string=String(sum)
+ console.log(string);
+ console.log(typeof string);
+ 
+ 
