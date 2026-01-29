@@ -1,0 +1,44 @@
+
+// let str1="hello"
+// let str2=" Sarthak"
+// let str3=str1+str2
+// console.log(str3);
+
+// console.log("1"+2);
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+// console.log(+true) 
+// // comparison of data types
+// console.log(2>5);
+// //compare same data typesc
+// console.log(null>0);
+// console.log(null>=0);
+// console.log(undefined==0);
+
+//string in jVASCRIPT
+const gameName=new String('Sarthak')
+console.log(gameName);
+
+console.log(gameName[6]);
+console.log(gameName.length);
+console.log(gameName.toLowerCase());
+console.log(gameName.charAt(3));
+console.log(gameName.indexOf('t'));
+console.log(gameName.substring(0,4));//last value not included
+console.log(gameName.slice(-8,4));
+console.log(gameName.length);
+const newName=new String('Atharv');
+console.log(newName);
+console.log(newName.trim());
+
+
+const url="https://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('hitesh'));
+console.log(url.split('-'))
+
+
+
+
