@@ -1,0 +1,23 @@
+const score=400;
+const balance=new Number(100) //specially object of number
+console.log(balance);
+
+console.log(balance.toString().length);
+
+console.log(balance.toFixed(2));  //precision value
+
+const num=23.954
+console.log(num.toPrecision(3)); //returns a string
+
+console.log(Math.floor(7.8))
+console.log(Math.ceil(7.8))
+console.log(Math.min(4,5,6,7))
+
+colog(Math.random()) //isme 0 to 1 value rhti hai decimal me
+console.lonsole.g((Math.random()*10)+1) //kai bar value 0.01 bhi aa skti
+//math.floor bhi use kara
+
+const min=10
+const max=20
+//kai bar min and max bhi define krna padta hai
+console.log(Math.floor(Math.random()+(max-min+1))+min);
