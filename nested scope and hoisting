@@ -1,0 +1,46 @@
+//hamari chAI TAIYAR HAI AND HAMARA CODE BHI
+//hoisting and scope 
+//globak scipre
+//nested scope
+function one(){
+ const username="hitesh"
+  
+  function two(){
+    const website="youtbe"
+    console.log(username) 
+  }
+ // console.log(website); //its scope is inner defined
+  two()
+}
+one()
+
+//child can   acess scope of parent function
+
+if(true){
+   const username="hitesh"
+   if(username==="hitesh"){
+      const website="youtbe"
+      console.log(username+website);
+   }
+  // console.log(website) out of the scope
+}
+//console.log(username);
+
+
+//+++++++++++++++++++= interesting//
+addone(5)
+console.log(addone(5))
+function addone(num){
+  return num+1
+}
+// console.log(addone(5))
+addone(5)
+
+
+addTwo() // give error as not initialided
+const addTwo=function(num){ //expression variable holding
+  return num+2
+}
+
+
+addTwo()
