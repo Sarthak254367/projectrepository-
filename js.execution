@@ -1,0 +1,27 @@
+// JAVASCRIPT EXECUTION CONTEXT
+// 1.GLOBAL EXECUTION CONTEXT
+// 2.Function EXECUTION CONTEXT
+
+let val1=3
+let val2=9
+function addNum(num1,num2){
+  return num1+num2 
+}
+let result=addNum(val1,val2)
+console.log(result) 
+
+step1-global EXECUTION-this
+step2-memory phase allocartion of variables -val1-undefined and val2-undefined
+addNum-definiton,result-undefined
+step3-execufion phase-val1=3,val2=9,addNum-individual context new variable environment+execution thread
+
+
+Memory Phase val1-undefined,val2-undefined,total=undefined
+Execution contest-processing of data,num1=3,num2=9 return 3+9=12 it return to global execurtion context 
+
+//afte new context it delete the val2-undefined
+result=12
+
+
+//callStack
+last execution ocntest-first out
