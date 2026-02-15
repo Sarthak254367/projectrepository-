@@ -24,8 +24,8 @@ const books=[
    //here scope is used so use return statement
   console.log(userbooks)
   
-const myNumber=[1,2,3,4,5,6]
-// const newNum=myNumber.map((num)=>num+10)
+ const myNumber=[1,2,3,4,5,6]
+ const newNum=myNumber.map((num)=>num+10)
 
 
 //chaining
@@ -57,6 +57,7 @@ console.log(total)
     },
     ]
     
-   const pricepay= shoppingCart.reduce((acc,item)=>
-    acc+item.price,0)
+const pricepay= shoppingCart.reduce((acc,item)=>
+                   acc+item.price,0)
+     
   console.log(pricepay)
