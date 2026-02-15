@@ -86,7 +86,7 @@ const myCoding=[
   }]
 
 
-myCoding.forEach( (i)=> {
+myCoding.forEach((i)=> {
   console.log(i.langauage)
   console.log(i.file)
 })
